@@ -10,7 +10,7 @@ module "backend" {
   source = "./modules/backend"
 }
 
-module "DynamoDB" { 
+module "DynamoDB" {
   source = "./modules/dynamodb"
 }
 
